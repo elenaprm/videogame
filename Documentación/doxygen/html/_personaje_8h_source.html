@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ProyectoDeProgramacion: Fichero Fuente Personaje.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ProyectoDeProgramacion
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Personaje.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_personaje_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PERSONAJE_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PERSONAJE_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_pantalla_8h.html">Pantalla.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">   14</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>PersonajeRep * <a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a> <a class="code" href="_personaje_8h.html#acdb385ab34cf2947a5fda08d0c38bfa0">PersonajeCrea</a>(<a class="code" href="_pantalla_8h.html#ab3a028955e2786b193b58bca21c21823">Imagen</a> i, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#a1f1160a3c1f01eee0a5d7da4d823b683">PersonajeLibera</a>(<a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a> p);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#a1a7a08ac5d540d694ce7712726c28162">PersonajeMueve</a>(<a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a> p, <span class="keywordtype">int</span> vx, <span class="keywordtype">int</span> vy);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#adbb27c75a9738095da532d34a9df4906">PersonajeDibuja</a>(<a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a> p);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_personaje_8h.html#a903163f3922b84ed129a16582a06e1a4">PersonajeGetX</a>(<a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a> p);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_personaje_8h.html#a1aa4df46cee0dec269043ed995669717">PersonajeGetY</a>(<a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a> p);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_personaje_8h.html#a1a7b57c2c98ba380e489121ba984ca3e">PersonajeGetW</a>(<a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a> p);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_personaje_8h.html#a1510eae6e59130e3134f93c4465ae5e5">PersonajeGetH</a>(<a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a> p);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif // PERSONAJE_H_INCLUDED</span></div><div class="ttc" id="_personaje_8h_html_a1f1160a3c1f01eee0a5d7da4d823b683"><div class="ttname"><a href="_personaje_8h.html#a1f1160a3c1f01eee0a5d7da4d823b683">PersonajeLibera</a></div><div class="ttdeci">void PersonajeLibera(Personaje p)</div><div class="ttdoc">Libera un personaje p. </div></div>
+<div class="ttc" id="_pantalla_8h_html_ab3a028955e2786b193b58bca21c21823"><div class="ttname"><a href="_pantalla_8h.html#ab3a028955e2786b193b58bca21c21823">Imagen</a></div><div class="ttdeci">struct Imagen * Imagen</div><div class="ttdoc">TDA Imagen. </div><div class="ttdef"><b>Definition:</b> Pantalla.h:21</div></div>
+<div class="ttc" id="_personaje_8h_html_adbb27c75a9738095da532d34a9df4906"><div class="ttname"><a href="_personaje_8h.html#adbb27c75a9738095da532d34a9df4906">PersonajeDibuja</a></div><div class="ttdeci">void PersonajeDibuja(Personaje p)</div><div class="ttdoc">Dibuja en pantalla un peronaje p. </div></div>
+<div class="ttc" id="_pantalla_8h_html"><div class="ttname"><a href="_pantalla_8h.html">Pantalla.h</a></div><div class="ttdoc">Permite realizar programas interactivos que usan gráficos sin necesidad de conocer los detalles de la...</div></div>
+<div class="ttc" id="_personaje_8h_html_a903163f3922b84ed129a16582a06e1a4"><div class="ttname"><a href="_personaje_8h.html#a903163f3922b84ed129a16582a06e1a4">PersonajeGetX</a></div><div class="ttdeci">int PersonajeGetX(Personaje p)</div><div class="ttdoc">Obtiene la coordenada x del personaje. </div></div>
+<div class="ttc" id="_personaje_8h_html_a1a7b57c2c98ba380e489121ba984ca3e"><div class="ttname"><a href="_personaje_8h.html#a1a7b57c2c98ba380e489121ba984ca3e">PersonajeGetW</a></div><div class="ttdeci">int PersonajeGetW(Personaje p)</div><div class="ttdoc">Obtiene la anchura del personaje. </div></div>
+<div class="ttc" id="_personaje_8h_html_a1a7a08ac5d540d694ce7712726c28162"><div class="ttname"><a href="_personaje_8h.html#a1a7a08ac5d540d694ce7712726c28162">PersonajeMueve</a></div><div class="ttdeci">void PersonajeMueve(Personaje p, int vx, int vy)</div><div class="ttdoc">Mueve un personaje p. </div></div>
+<div class="ttc" id="_personaje_8h_html_a1510eae6e59130e3134f93c4465ae5e5"><div class="ttname"><a href="_personaje_8h.html#a1510eae6e59130e3134f93c4465ae5e5">PersonajeGetH</a></div><div class="ttdeci">int PersonajeGetH(Personaje p)</div><div class="ttdoc">Obtiene la altura del persoanje. </div></div>
+<div class="ttc" id="_personaje_8h_html_a9d07dc1d96da277fcf14dbfdbabed99e"><div class="ttname"><a href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a></div><div class="ttdeci">struct PersonajeRep * Personaje</div><div class="ttdoc">renombrado de tipos donde Personaje es un apuntador a un tipo PersonajeRep </div><div class="ttdef"><b>Definition:</b> Personaje.h:14</div></div>
+<div class="ttc" id="_personaje_8h_html_acdb385ab34cf2947a5fda08d0c38bfa0"><div class="ttname"><a href="_personaje_8h.html#acdb385ab34cf2947a5fda08d0c38bfa0">PersonajeCrea</a></div><div class="ttdeci">Personaje PersonajeCrea(Imagen i, int w, int h, int x, int y)</div><div class="ttdoc">Crea un personaje a partir de una imagen i, una anchura w, una altura h y una posición (x...</div></div>
+<div class="ttc" id="_personaje_8h_html_a1aa4df46cee0dec269043ed995669717"><div class="ttname"><a href="_personaje_8h.html#a1aa4df46cee0dec269043ed995669717">PersonajeGetY</a></div><div class="ttdeci">int PersonajeGetY(Personaje p)</div><div class="ttdoc">Obtiene la coordenada y del personaje. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 8 de Mayo de 2018 19:43:13 para ProyectoDeProgramacion por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -1,0 +1,3 @@
+C:/Users/elipe/Desktop/Código/Personaje.h:38: warning: The following parameters of PersonajeMueve(Personaje p, int vx, int vy) are not documented:
+  parameter 'vx'
+  parameter 'vy'

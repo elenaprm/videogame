@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ProyectoDeProgramacion: Fichero Fuente Bala.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ProyectoDeProgramacion
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Bala.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_bala_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef BALA_H_INCLUDED</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define BALA_H_INCLUDED</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_pantalla_8h.html">Pantalla.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">   15</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>BalaRep * <a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a> <a class="code" href="_bala_8h.html#acee8fca0e020adb475c567da1ea232b8">BalaCrea</a>(<a class="code" href="_pantalla_8h.html#ab3a028955e2786b193b58bca21c21823">Imagen</a> i, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> v);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_bala_8h.html#a0f9e5bb77b1b7129fe0b13f865b407dc">BalaLibera</a>(<a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a> b);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bala_8h.html#af0948b13a671d9f732b8faead87eb13c">BalaMueve</a>(<a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a> b);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_bala_8h.html#a2a3e370efeaee3d659c867194ca2d050">BalaDibuja</a>(<a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a> b);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bala_8h.html#a41b835f45cc1c6f61e6c63f07b4b31ae">BalaGetW</a>(<a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a> b);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bala_8h.html#a79b0995fb4ff5cd5cd8a5210084294d2">BalaGetH</a>(<a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a> b);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bala_8h.html#a4e1cb7a660e570fe957256474ed51a3c">BalaGetX</a>(<a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a> b);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bala_8h.html#a8689c555b9c68424460cb951e0454e29">BalaGetY</a>(<a class="code" href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a> b);</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif // BALA_H_INCLUDED</span></div><div class="ttc" id="_pantalla_8h_html_ab3a028955e2786b193b58bca21c21823"><div class="ttname"><a href="_pantalla_8h.html#ab3a028955e2786b193b58bca21c21823">Imagen</a></div><div class="ttdeci">struct Imagen * Imagen</div><div class="ttdoc">TDA Imagen. </div><div class="ttdef"><b>Definition:</b> Pantalla.h:21</div></div>
+<div class="ttc" id="_bala_8h_html_a41b835f45cc1c6f61e6c63f07b4b31ae"><div class="ttname"><a href="_bala_8h.html#a41b835f45cc1c6f61e6c63f07b4b31ae">BalaGetW</a></div><div class="ttdeci">int BalaGetW(Bala b)</div><div class="ttdoc">Obtiene la anchura de la bala. </div></div>
+<div class="ttc" id="_bala_8h_html_acee8fca0e020adb475c567da1ea232b8"><div class="ttname"><a href="_bala_8h.html#acee8fca0e020adb475c567da1ea232b8">BalaCrea</a></div><div class="ttdeci">Bala BalaCrea(Imagen i, int w, int h, int x, int y, int v)</div><div class="ttdoc">Crea una bala a partir de una imagen i, una anchura w, una altura h, una posición (x...</div></div>
+<div class="ttc" id="_bala_8h_html_a0033b7344a8d08a8e758495a27454943"><div class="ttname"><a href="_bala_8h.html#a0033b7344a8d08a8e758495a27454943">Bala</a></div><div class="ttdeci">struct BalaRep * Bala</div><div class="ttdoc">renombrado de tipos donde Bala es un apuntador a un tipo BalaRep </div><div class="ttdef"><b>Definition:</b> Bala.h:15</div></div>
+<div class="ttc" id="_pantalla_8h_html"><div class="ttname"><a href="_pantalla_8h.html">Pantalla.h</a></div><div class="ttdoc">Permite realizar programas interactivos que usan gráficos sin necesidad de conocer los detalles de la...</div></div>
+<div class="ttc" id="_bala_8h_html_a2a3e370efeaee3d659c867194ca2d050"><div class="ttname"><a href="_bala_8h.html#a2a3e370efeaee3d659c867194ca2d050">BalaDibuja</a></div><div class="ttdeci">void BalaDibuja(Bala b)</div><div class="ttdoc">Dibuja en pantalla una bala b. </div></div>
+<div class="ttc" id="_bala_8h_html_a8689c555b9c68424460cb951e0454e29"><div class="ttname"><a href="_bala_8h.html#a8689c555b9c68424460cb951e0454e29">BalaGetY</a></div><div class="ttdeci">int BalaGetY(Bala b)</div><div class="ttdoc">Obtiene la coordenada y de la bala. </div></div>
+<div class="ttc" id="_bala_8h_html_a0f9e5bb77b1b7129fe0b13f865b407dc"><div class="ttname"><a href="_bala_8h.html#a0f9e5bb77b1b7129fe0b13f865b407dc">BalaLibera</a></div><div class="ttdeci">void BalaLibera(Bala b)</div><div class="ttdoc">Libera una bala b. </div></div>
+<div class="ttc" id="_bala_8h_html_af0948b13a671d9f732b8faead87eb13c"><div class="ttname"><a href="_bala_8h.html#af0948b13a671d9f732b8faead87eb13c">BalaMueve</a></div><div class="ttdeci">int BalaMueve(Bala b)</div><div class="ttdoc">Mueve una bala b. </div></div>
+<div class="ttc" id="_bala_8h_html_a79b0995fb4ff5cd5cd8a5210084294d2"><div class="ttname"><a href="_bala_8h.html#a79b0995fb4ff5cd5cd8a5210084294d2">BalaGetH</a></div><div class="ttdeci">int BalaGetH(Bala b)</div><div class="ttdoc">Obtiene la altura de la bala. </div></div>
+<div class="ttc" id="_bala_8h_html_a4e1cb7a660e570fe957256474ed51a3c"><div class="ttname"><a href="_bala_8h.html#a4e1cb7a660e570fe957256474ed51a3c">BalaGetX</a></div><div class="ttdeci">int BalaGetX(Bala b)</div><div class="ttdoc">Obtiene la coordenada x de la bala. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 8 de Mayo de 2018 19:43:12 para ProyectoDeProgramacion por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>
